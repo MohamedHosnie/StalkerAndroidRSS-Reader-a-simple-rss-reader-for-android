@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+   
+   
+   <item android:title="@string/aboutus" 
+       android:id="@+id/aboutus" 
+       android:icon="@drawable/ic_launcher" />
+   
+   <item 
+       android:title="@string/newsite" 
+       android:id="@+id/newwebsite"
+       android:icon="@drawable/ic_add_site" />
+   
+   <item 
+       android:title="@string/feedback" 
+       android:id="@+id/feedback"
+       android:icon="@drawable/ic_feedback" />
+   
+   <item 
+       android:title="@string/usermanual" 
+       android:id="@+id/user_manual"
+       android:icon="@drawable/ic_user_manual" />
+    
+</menu>

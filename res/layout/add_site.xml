@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/add_RSS_URL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/add_site_name"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:inputType="textLongMessage" />
+
+    <EditText
+        android:id="@+id/add_site_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="128dp"
+        android:text="@string/sitename" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/add_RSS_URL"
+        android:layout_alignBottom="@+id/add_RSS_URL"
+        android:layout_alignLeft="@+id/textView1"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="@string/rssurl" />
+
+    <Button
+        android:id="@+id/add_new_site_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/add_RSS_URL"
+        android:layout_below="@+id/add_RSS_URL"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/add" />
+
+</RelativeLayout>

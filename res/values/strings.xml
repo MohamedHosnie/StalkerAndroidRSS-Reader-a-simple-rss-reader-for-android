@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Stalker</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="defaultValue">No Data Found</string>
+    <string name="bLink">See more</string>
+    <string name="aboutus">About Us</string>
+    <string name="newsite">Add New Website</string>
+    <string name="feedback">Feedback</string>
+    <string name="usermanual">User Manual</string>
+    <string name="rssurl">Rss URL</string>
+    <string name="add">Add</string>
+    <string name="entermessage">Enter your Message</string>
+    <string name="sendmessage">Send the message</string>
+    <string name="siteurl">Site URL</string>
+    <string name="savechanges">Save Changes</string>
+    <string name="deletesite">Delete the Site</string>
+    <string name="sitename">Site Name</string>
+    <string name="manualdescription">BALA</string>
+
+                
+
+</resources>
+    
